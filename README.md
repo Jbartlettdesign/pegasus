@@ -12,4 +12,4 @@
 * Bulma for CSS framework and media queries.
 
 ## Where can I find it?
-* Pegasus can be found at our GitHub Pages environment: https://csr-ph.github.io/pegasus/
+* Pegasus can be found at our GitHub Pages environment: https://jbartlettdesign.github.io/pegasus/
