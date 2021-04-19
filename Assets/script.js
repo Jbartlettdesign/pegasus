@@ -652,7 +652,7 @@ function FindBikes(divInfo){
             console.log(realNames[i]);
         }
     }
-    fetch("http://api.citybik.es/v2/networks")
+    fetch("https://api.citybik.es/v2/networks")
 
     .then(function(response){
 
