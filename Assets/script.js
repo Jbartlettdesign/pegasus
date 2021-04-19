@@ -652,7 +652,7 @@ function FindBikes(divInfo){
             console.log(realNames[i]);
         }
     }
-    fetch("https://api.citybik.es/v2/networks")
+    fetch("http://api.citybik.es/v2/networks")
 
     .then(function(response){
 
@@ -669,7 +669,7 @@ function FindBikes(divInfo){
             var href = data.networks[i].href;
             
             console.log("http://api.citybik.es" + href);
-            fetch("https://api.citybik.es" + href).then(function(response){
+            fetch("http://api.citybik.es" + href).then(function(response){
             return response.json();
             }).then(function(data){
                 rideFactor = 0;
